@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="694.002" tests="162" errors="1" skipped="43" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_131/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/builder/hudson/workspace/dcs_dcs.Release-Unit-Tests/code2cloud.server"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/builder/hudson/workspace/dcs_dcs.Release-Unit-Tests/code2cloud.server"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_131/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/local/apache-maven/apache-maven-3.3.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.test.failure.ignore" value="true"/>
+    <property name="os.version" value="3.8.13-55.1.1.el6uek.x86_64"/>
+    <property name="user.home" value="/home/builder"/>
+    <property name="user.timezone" value="Universal"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="builder"/>
+    <property name="java.class.path" value="/usr/local/apache-maven/apache-maven-3.3.3/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/java/jdk1.8.0_131/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.test.failure.ignore=true -B -f com.tasktop.c2c.server/com.tasktop.c2c.server.profile.build/pom.xml install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_131/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_131/jre/lib/resources.jar:/usr/java/jdk1.8.0_131/jre/lib/rt.jar:/usr/java/jdk1.8.0_131/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_131/jre/lib/jsse.jar:/usr/java/jdk1.8.0_131/jre/lib/jce.jar:/usr/java/jdk1.8.0_131/jre/lib/charsets.jar:/usr/java/jdk1.8.0_131/jre/lib/jfr.jar:/usr/java/jdk1.8.0_131/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/apache-maven/apache-maven-3.3.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testGetAttachmentOverURL" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0">
+    <skipped message="this test fails randomly because it somehow implicitly depends on other tests, need to investigate further"/>
+  </testcase>
+  <testcase name="testRetrieveComponentForNullID" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="2.559"/>
+  <testcase name="testWebServiceUp" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.215"/>
+  <testcase name="testNonAdminUserCannotSetDifferentWorkLogProfile" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.629"/>
+  <testcase name="updateTask_NewKeyword" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.89"/>
+  <testcase name="updateTask_withOnlyNewWorkLog" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="1.36"/>
+  <testcase name="testWikiRenderer" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0">
+    <skipped message="migrated to H2"/>
+  </testcase>
+  <testcase name="testUpdateWithCommentDateSet" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.343"/>
+  <testcase name="testWithDependencyUpdateConflictFromCreate" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="1.471"/>
+  <testcase name="testUpdateAssociations" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="1.656"/>
+  <testcase name="testGetBlocksActivity" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="1.698"/>
+  <testcase name="testFindTasksWithCriteria_Keywords" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0">
+    <skipped message="migrated to H2"/>
+  </testcase>
+  <testcase name="testDeleteMilestoneWithTask" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.094"/>
+  <testcase name="testCreateWithInvalidOwner" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.192"/>
+  <testcase name="testAdminCanBypassStatusWorkflow" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.329"/>
+  <testcase name="updateTask_workLogsShouldBeImmutable" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.3"/>
+  <testcase name="testUpdateTaskModifiesTaskVersion" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="1.281"/>
+  <testcase name="testProvisionCurrentUser" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.231"/>
+  <testcase name="deleteKeyword" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.097"/>
+  <testcase name="createUpdateIteration" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0">
+    <skipped message="Iterations are deprecated in favor of sprints in Agile"/>
+  </testcase>
+  <testcase name="testFindMyRelatedTasks" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.38"/>
+  <testcase name="testResolveDuplicateAddsToCCOfDuplicatedTask" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.665"/>
+  <testcase name="testCreateRetrieveUpdateSubtasks" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="1.476"/>
+  <testcase name="testDeleteProductWithTask" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.075"/>
+  <testcase name="testCreateWithCustomFieldsValidationFails" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.28"/>
+  <testcase name="createTask_taskRelation" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.237"/>
+  <testcase name="testCriteriaQueryWithSimpleFieldsPlusAndOr" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.593"/>
+  <testcase name="testCommentDoesNotBecomeDescription_task2838" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="10.137"/>
+  <testcase name="testWorkLogBeforeTaskCreationOnCreate_task2812" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.248"/>
+  <testcase name="testUpdateWithObsoleteCustomFields" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="1.098"/>
+  <testcase name="testHistoricalSummary" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.34"/>
+  <testcase name="testDeleteComponent" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.194"/>
+  <testcase name="testUpdateProductComponentActivity" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.297"/>
+  <testcase name="testWorkflowTaskUpdate" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="10.22"/>
+  <testcase name="testUpdateProductTree_ValidationErrors" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.115"/>
+  <testcase name="testTaskSummary" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="2.126"/>
+  <testcase name="testUpdateProductTree" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.111"/>
+  <testcase name="testFindAllTasksSortedBySeverity" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.169"/>
+  <testcase name="testUpdateAssociationsDeltaTimestamp" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="5.177"/>
+  <testcase name="testCreateComponentNoInitialOwner" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0">
+    <skipped message="migrated to H2"/>
+  </testcase>
+  <testcase name="testUpdateWithNoOwner" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.321"/>
+  <testcase name="testInvalidCreates" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.803"/>
+  <testcase name="testRetrieveAllProducts" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.175"/>
+  <testcase name="findAllTasksForProductIdComponentIdAndMilestone" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.173"/>
+  <testcase name="testCreateProduct" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0">
+    <skipped message="migrated to H2"/>
+  </testcase>
+  <testcase name="testDeleteMilestone" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.231"/>
+  <testcase name="findAllTasksForProductName" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.168"/>
+  <testcase name="updateTask_withWorkLog" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.347"/>
+  <testcase name="testDeleteComponentWithTask" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.064"/>
+  <testcase name="testNonAdminUserCannotSetDifferentTaskReporter" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.131"/>
+  <testcase name="testUpdateComponent" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.053"/>
+  <testcase name="testGetRepositoryContextStateTransitions" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.06"/>
+  <testcase name="testFindTasksWithMatchingCommentText" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.118"/>
+  <testcase name="testUpdateSendsCorrectActivityEvent" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="1.319"/>
+  <testcase name="testUpdateWithCustomFields_MultiSelect" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.852"/>
+  <testcase name="testCreateRetrieveUpdateParentAndBlocks" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="1.296"/>
+  <testcase name="testFindAllTasksSortedByCreation" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.165"/>
+  <testcase name="testGetTaskActivity_CustomFields" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="2.285"/>
+  <testcase name="testFindAllTasksSortedByStatus" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.181"/>
+  <testcase name="testFindAllTasksSortedByTaskId" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.16"/>
+  <testcase name="testFindAllTasksSortedByUpdate" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.166"/>
+  <testcase name="testUpdateMilestoneNameUpdatesAssosiatedTasks_task2434" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.327"/>
+  <testcase name="testUpdateWithCustomFields_Timestamp" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.645"/>
+  <testcase name="testCreateWithInvalidIterationCustomField" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0">
+    <skipped message="Iterations are deprecated in favor of sprints in Agile"/>
+  </testcase>
+  <testcase name="testCreateUpdateDuplicates" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="1.367"/>
+  <testcase name="testCreateTaskAsAdminCreateAssignee" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.195"/>
+  <testcase name="testUpdateProduct" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.107"/>
+  <testcase name="testUpdateComponentNoName" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.058"/>
+  <testcase name="testCreateWithInvalidTaskTypeCustomField" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.164"/>
+  <testcase name="testSaveAndRetrieveAttachment" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="1.444"/>
+  <testcase name="testDeltaTimestampMaintainance" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="1.318"/>
+  <testcase name="testUpdateWithInvalidIterationCustomField" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0">
+    <skipped message="Iterations are deprecated in favor of sprints in Agile"/>
+  </testcase>
+  <testcase name="testCreateWithNoOwner_ComponentWithNoDefaultOwner" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.221"/>
+  <testcase name="updateTask_RemoveKeyword" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.367"/>
+  <testcase name="testFindResultsAreThin" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.162"/>
+  <testcase name="testTaskCreateRetrieveUpdateRetrieve" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.621"/>
+  <testcase name="testDependencyUpdateConflict" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="1.548"/>
+  <testcase name="testCreateRetrieveUpdateComments" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="1.447"/>
+  <testcase name="replicateProfile" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.034"/>
+  <testcase name="testCreateComponentWithInitialOwner" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0">
+    <skipped message="migrated to H2"/>
+  </testcase>
+  <testcase name="testGetProductActivity" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.431"/>
+  <testcase name="testCreateUpdateWithSubtaskCycle" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.809"/>
+  <testcase name="testUpdateExceptions" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.259"/>
+  <testcase name="testFindTasksWithCriteria_CreationDateRange" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.207"/>
+  <testcase name="testLineDelimitersConsistent" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.261"/>
+  <testcase name="testGetRepositoryContextWithCustomField" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.202"/>
+  <testcase name="testUpdateWithInvalidTaskTypeCustomField" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.204"/>
+  <testcase name="testQueryWithInvalidTasks" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.036"/>
+  <testcase name="testCreateTaskSetsPropertiesAsUser" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.235"/>
+  <testcase name="testCreateUpdateWithSelfParent" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.249"/>
+  <testcase name="testUpdateDefaultComponent" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.157"/>
+  <testcase name="testFindTasksWithCriteria_RelativeDate" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.133"/>
+  <testcase name="testUpdateWithTaskTypeCustomField" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.252"/>
+  <testcase name="testFindTasksWithCriteria_CustomFields" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0">
+    <skipped message="migrated to H2"/>
+  </testcase>
+  <testcase name="testCreateWithInitialComments" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.175"/>
+  <testcase name="testSaveAndRetrieveAttachmentViaUpdate" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.368"/>
+  <testcase name="testOptimisticLocking" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="1.331"/>
+  <testcase name="testFindResultsExposesParent" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.092"/>
+  <testcase name="testRetrieveComponentForBadID" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.033"/>
+  <testcase name="testCreateTaskWithInvalidSubtaskId_task4026" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.152"/>
+  <testcase name="testGetActivitySinceDate" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="2.705"/>
+  <testcase name="testNonAdminUserCannotSetDifferentAttachmentCommentAuthor" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.192"/>
+  <testcase name="testFindAllTasksSortedByPriority" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.148"/>
+  <testcase name="testDeleteDefaultMilestone" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.073"/>
+  <testcase name="updateTask_taskRelations" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="600.297">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testFindTasksWithNumbericSearchTerm" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.118">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateDefaultMilestone" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.2">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="createTask_NewKeyword" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.185">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testFindTasksWithCriteria_UpdatedDateRange" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.211"/>
+  <testcase name="findAllTasksForProductIdAndMilestone" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.16">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="gravatarHash" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.095">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateProductTree_task2891" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDeleteProduct" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.071">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateWithCustomFields_Checkbox" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.666">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateWithInitialComment" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.201">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testOrOfAndCriteria" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.062">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="createKeyword" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.029">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testFindAllTasksSortedByTaskIdPagingThroughResults" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.292">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testRetrieveAllComponents" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.044">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testFindAllOpenTasks" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.153">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testSaveAndRetrieveAttachmentAndComment" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.224">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testFindMyTasks" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.083">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateDoesntUpdateComponent" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.185">    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testFindTasksWithMatchingCommentAndSummaryText" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.118">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateWithTaskTypeCustomField" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.162">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testWorkflowTaskCreation" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.774">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateWithCustomFields_SingleSelect" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.672">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testWorkLogBeforeTaskCreationOnUpdate_task2812" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.271">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="createTask_withWorkLog" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.178">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateWithIterationCustomField" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0">
+    <error message="I/O error on POST request for &quot;http://localhost:11504/tasks/task/3207&quot;: Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out" type="org.springframework.web.client.ResourceAccessException">org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:11504/tasks/task/3207": Read timed out; nested exception is java.net.SocketTimeoutException: Read timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:633)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at ... Karen cut out the rest for testing purposes.
+</error>
+    <system-out><![CDATA[Running: updateTask_taskRelations(com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest)
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+[Winstone 2017/04/21 17:07:26] - Called getInputStream after getParameter ... error
+]]></system-out>
+  </testcase>
+  <testcase name="updateKeyword" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.059"/>
+  <testcase name="testCreateWithNoOwner_ComponentWithDefaultOwner" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.17"/>
+  <testcase name="testCreateTaskWithInvalidParentId_task4026" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.135"/>
+  <testcase name="testUpdateWithCustomFields_LongText" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.406"/>
+  <testcase name="testNonAdminUserCannotSetDifferentCommentAuthor" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.127"/>
+  <testcase name="testUpdateWithCustomFields_TaskReference" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="0.654"/>
+  <testcase name="testFakeSkippedTest1" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="1">
+    <skipped message="Fake skipped test 1"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest2" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="2">
+    <skipped message="Fake skipped test 2"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest3" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="3">
+    <skipped message="Fake skipped test 3"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest4" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="4">
+    <skipped message="Fake skipped test 4"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest5" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="5">
+    <skipped message="Fake skipped test 5"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest6" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="6">
+    <skipped message="Fake skipped test 6"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest7" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="7">
+    <skipped message="Fake skipped test 7"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest8" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="8">
+    <skipped message="Fake skipped test 8"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest9" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="9">
+    <skipped message="Fake skipped test 9"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest10" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="10">
+    <skipped message="Fake skipped test 10"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest11" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="11">
+    <skipped message="Fake skipped test 11"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest12" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="12">
+    <skipped message="Fake skipped test 12"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest13" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="13">
+    <skipped message="Fake skipped test 13"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest14" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="14">
+    <skipped message="Fake skipped test 14"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest15" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="15">
+    <skipped message="Fake skipped test 15"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest16" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="16">
+    <skipped message="Fake skipped test 16"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest17" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="17">
+    <skipped message="Fake skipped test 17"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest18" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="18">
+    <skipped message="Fake skipped test 18"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest19" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="19">
+    <skipped message="Fake skipped test 19"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest20" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="20">
+    <skipped message="Fake skipped test 20"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest21" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="21">
+    <skipped message="Fake skipped test 21"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest22" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="22">
+    <skipped message="Fake skipped test 22"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest23" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="23">
+    <skipped message="Fake skipped test 23"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest24" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="24">
+    <skipped message="Fake skipped test 24"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest25" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="25">
+    <skipped message="Fake skipped test 25"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest26" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="26">
+    <skipped message="Fake skipped test 26"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest27" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="27">
+    <skipped message="Fake skipped test 27"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest28" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="28">
+    <skipped message="Fake skipped test 28"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest29" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="29">
+    <skipped message="Fake skipped test 29"/>
+  </testcase>
+  <testcase name="testFakeSkippedTest30" classname="com.tasktop.c2c.server.tasks.tests.service.TaskServiceClientTest" time="30">
+    <skipped message="Fake skipped test 30"/>
+  </testcase>
+</testsuite>

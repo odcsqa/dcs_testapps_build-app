@@ -1,0 +1,17 @@
+{
+  "name": "accsnode",
+  "version": "1.0.0",
+  "description": "package file for accs tutorial",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-compress": "^1.3.0",
+    "grunt-hook": "^0.3.1",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}

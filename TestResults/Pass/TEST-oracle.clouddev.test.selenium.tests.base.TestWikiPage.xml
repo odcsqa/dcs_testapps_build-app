@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite name="oracle.clouddev.test.selenium.tests.base.TestWikiPage" errors="0" test="7" failures="0" skipped="0" timestamp="20160412T233108-0700" time="1843.894">
+    <testcase classname="oracle.clouddev.test.selenium.tests.base.TestWikiPage" name="_class_init_" time="0.000">
+      <properties>
+        <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+        <property name="exec.mainClass" value="oracle.clouddev.test.selenium.RunTests"/>
+        <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_74/jre/lib/amd64"/>
+        <property name="java.vm.version" value="25.74-b02"/>
+        <property name="java.vm.vendor" value="Oracle Corporation"/>
+        <property name="java.vendor.url" value="http://java.oracle.com/"/>
+        <property name="guice.disable.misplaced.annotation.check" value="true"/>
+        <property name="path.separator" value=":"/>
+        <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+        <property name="file.encoding.pkg" value="sun.io"/>
+        <property name="user.country" value="US"/>
+        <property name="sun.java.launcher" value="SUN_STANDARD"/>
+        <property name="sun.os.patch.level" value="unknown"/>
+        <property name="http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+        <property name="user.dir" value="/home/builder/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests"/>
+        <property name="java.runtime.version" value="1.8.0_74-b02"/>
+        <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+        <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_74/jre/lib/endorsed"/>
+        <property name="os.arch" value="amd64"/>
+        <property name="java.io.tmpdir" value="/tmp"/>
+        <property name="line.separator" value="
+"/>
+        <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+        <property name="https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="os.name" value="Linux"/>
+        <property name="classworlds.conf" value="/usr/local/apache-maven/apache-maven-3.0.4/bin/m2.conf"/>
+        <property name="sun.jnu.encoding" value="UTF-8"/>
+        <property name="http.proxyPort" value="80"/>
+        <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+        <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+        <property name="java.specification.name" value="Java Platform API Specification"/>
+        <property name="java.class.version" value="52.0"/>
+        <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+        <property name="os.version" value="3.8.13-55.1.1.el6uek.x86_64"/>
+        <property name="user.home" value="/home/builder"/>
+        <property name="user.timezone" value="PST8PDT"/>
+        <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+        <property name="file.encoding" value="UTF-8"/>
+        <property name="java.specification.version" value="1.8"/>
+        <property name="java.class.path" value="/usr/local/apache-maven/apache-maven-3.0.4/boot/plexus-classworlds-2.4.jar"/>
+        <property name="user.name" value="builder"/>
+        <property name="java.vm.specification.version" value="1.8"/>
+        <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f /home/c2c/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests/pom.xml --batch-mode exec:java -Dexec.mainClass=oracle.clouddev.test.selenium.RunTests -Dexec.args=selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=295 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="java.home" value="/usr/java/jdk1.8.0_74/jre"/>
+        <property name="sun.arch.data.model" value="64"/>
+        <property name="user.language" value="en"/>
+        <property name="java.specification.vendor" value="Oracle Corporation"/>
+        <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+        <property name="java.vm.info" value="mixed mode"/>
+        <property name="java.version" value="1.8.0_74"/>
+        <property name="securerandom.source" value="file:/dev/./urandom"/>
+        <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_74/jre/lib/ext:/usr/java/packages/lib/ext"/>
+        <property name="http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_74/jre/lib/resources.jar:/usr/java/jdk1.8.0_74/jre/lib/rt.jar:/usr/java/jdk1.8.0_74/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_74/jre/lib/jsse.jar:/usr/java/jdk1.8.0_74/jre/lib/jce.jar:/usr/java/jdk1.8.0_74/jre/lib/charsets.jar:/usr/java/jdk1.8.0_74/jre/lib/jfr.jar:/usr/java/jdk1.8.0_74/jre/classes"/>
+        <property name="java.vendor" value="Oracle Corporation"/>
+        <property name="maven.home" value="/usr/local/apache-maven/apache-maven-3.0.4"/>
+        <property name="file.separator" value="/"/>
+        <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+        <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+        <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+        <property name="sun.cpu.endian" value="little"/>
+        <property name="https.proxyPort" value="80"/>
+        <property name="exec.args" value="selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=295 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="sun.cpu.isalist" value=""/>
+        <property name="test.selenium.browser.size.h" value="960"/>
+        <property name="test.user.non-admin.name" value="tom.testsuite"/>
+        <property name="test.https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.user.admin.name" value="tina.testsuite"/>
+        <property name="test.user.em-agent.password" value="Welcome1!"/>
+        <property name="test.tag" value="base"/>
+        <property name="test.user.em-agent.fullname" value="Alex Admin"/>
+        <property name="test.selenium.port" value="44000"/>
+        <property name="test.build.number" value="295"/>
+        <property name="test.user.sdi-agent.enabled" value="true"/>
+        <property name="test.timeout.assert.condition" value="30"/>
+        <property name="test.target.version" value="{
+  &quot;buildInformation&quot; : {
+    &quot;gitCommitId&quot; : &quot;6415b9c07a83d336f513936eb79c4a925510b07b&quot;,
+    &quot;gitCommitMessage&quot; : &quot;Merge branch &apos;Fix18963&apos; into &apos;patchset_16_2_3&apos;&quot;,
+    &quot;buildTime&quot; : &quot;12.04.2016 @ 21:58:42 PDT&quot;,
+    &quot;buildUser&quot; : &quot;Code2Cloud Builder&quot;
+  }
+}"/>
+        <property name="test.build.job" value="dcs_dcs.Release-Selenium-Tests"/>
+        <property name="test.timeout.project.create" value="660"/>
+        <property name="test.user.sdi-agent.name" value="alex.admin"/>
+        <property name="test.selenium.browser" value="firefox"/>
+        <property name="test.http.proxyPort" value="80"/>
+        <property name="test.user.sdi-agent.password" value="Welcome1!"/>
+        <property name="test.user.sdi-agent.fullname" value="Alex Admin"/>
+        <property name="test.timeout.selenium.navigate" value="20"/>
+        <property name="test.target.release" value="16.2.3.0.0"/>
+        <property name="test.byom.ip" value="127.0.0.1"/>
+        <property name="test.byom.port" value="8585"/>
+        <property name="test.notification.type" value="swing"/>
+        <property name="test.data.project.override" value=""/>
+        <property name="test.timeout.selenium.find" value="1"/>
+        <property name="test.user.em-agent.enabled" value="true"/>
+        <property name="test.testEmptyOrg.db.id" value=""/>
+        <property name="test.reviews.timeout.slowdown" value="0"/>
+        <property name="test.http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="test.capture.video" value="true"/>
+        <property name="test.user.non-admin.password" value="Welcome1!"/>
+        <property name="test.user.non-admin.fullname" value="Tom Testsuite"/>
+        <property name="test.user.admin.password" value="Welcome1!"/>
+        <property name="test.notification.history" value="3"/>
+        <property name="test.user.admin.fullname" value="Tina Testsuite"/>
+        <property name="test.capture.screenshots" value="true"/>
+        <property name="test.testEmptyOrg.db.connectString" value="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=slc09iwb.us.oracle.com)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=dbpod)))"/>
+        <property name="test.firefox.bin" value=""/>
+        <property name="test.https.proxyPort" value="80"/>
+        <property name="test.develop.offline" value="false"/>
+        <property name="test.timeout.build.buildqueue.polling" value="60"/>
+        <property name="test.output.dir" value="target/test-reports/"/>
+        <property name="test.firefox.allowedHosts" value="localhost,localhost.localdomain"/>
+        <property name="test.testEmptyOrg.db.schema" value="BV2RLPNYEWMR"/>
+        <property name="test.web.url" value="http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/"/>
+        <property name="test.firefox.extensions" value=""/>
+        <property name="test.testEmptyOrg.orgExistsCheck" value="false"/>
+        <property name="test.data.dir" value="data/"/>
+        <property name="test.notification.font.size" value="15"/>
+        <property name="test.testEmptyOrg.service" value="devservice5"/>
+        <property name="test.selenium.start.server" value="false"/>
+        <property name="test.firefox.profile.path" value=""/>
+        <property name="test.selenium.host" value="localhost"/>
+        <property name="test.suite" value="BASE"/>
+        <property name="test.tests" value=""/>
+        <property name="test.user.admin.idm" value="dcsdevteam"/>
+        <property name="test.http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.testMethods" value=""/>
+        <property name="test.reviews.dontDeleteEnviroment" value="false"/>
+        <property name="test.selenium.browser.maximize" value="false"/>
+        <property name="test.firefox.profile.name" value=""/>
+        <property name="test.timeout.build.buildqueue" value="1200"/>
+        <property name="test.user.em-agent.idm" value="dcsdevteam"/>
+        <property name="test.selenium.remote" value="false"/>
+        <property name="test.user.sdi-agent.idm" value="dcsdevteam"/>
+        <property name="test.byom.authToken" value="123456"/>
+        <property name="test.proxy.autodetect" value="false"/>
+        <property name="test.testEmptyOrg.idm" value="dcsdevteam"/>
+        <property name="test.user.non-admin.idm" value="dcsdevteam"/>
+        <property name="test.data.tasks.useexisting" value="false"/>
+        <property name="test.selenium.browser.size.w" value="1280"/>
+        <property name="test.category" value="DEFAULT"/>
+        <property name="test.user.em-agent.name" value="alex.admin"/>
+        <property name="test.timeout.slowdown" value="0"/>
+      </properties>
+    </testcase>
+    <testcase classname="oracle.clouddev.test.selenium.tests.base.TestWikiPage" name="createSampleWikiPage" time="29.671">
+      <properties>
+        <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+        <property name="exec.mainClass" value="oracle.clouddev.test.selenium.RunTests"/>
+        <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_74/jre/lib/amd64"/>
+        <property name="java.vm.version" value="25.74-b02"/>
+        <property name="java.vm.vendor" value="Oracle Corporation"/>
+        <property name="java.vendor.url" value="http://java.oracle.com/"/>
+        <property name="guice.disable.misplaced.annotation.check" value="true"/>
+        <property name="path.separator" value=":"/>
+        <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+        <property name="file.encoding.pkg" value="sun.io"/>
+        <property name="user.country" value="US"/>
+        <property name="sun.java.launcher" value="SUN_STANDARD"/>
+        <property name="sun.os.patch.level" value="unknown"/>
+        <property name="http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+        <property name="user.dir" value="/home/builder/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests"/>
+        <property name="java.runtime.version" value="1.8.0_74-b02"/>
+        <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+        <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_74/jre/lib/endorsed"/>
+        <property name="os.arch" value="amd64"/>
+        <property name="java.io.tmpdir" value="/tmp"/>
+        <property name="line.separator" value="
+"/>
+        <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+        <property name="https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="os.name" value="Linux"/>
+        <property name="classworlds.conf" value="/usr/local/apache-maven/apache-maven-3.0.4/bin/m2.conf"/>
+        <property name="sun.jnu.encoding" value="UTF-8"/>
+        <property name="http.proxyPort" value="80"/>
+        <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+        <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+        <property name="java.specification.name" value="Java Platform API Specification"/>
+        <property name="java.class.version" value="52.0"/>
+        <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+        <property name="os.version" value="3.8.13-55.1.1.el6uek.x86_64"/>
+        <property name="user.home" value="/home/builder"/>
+        <property name="user.timezone" value="PST8PDT"/>
+        <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+        <property name="file.encoding" value="UTF-8"/>
+        <property name="java.specification.version" value="1.8"/>
+        <property name="java.class.path" value="/usr/local/apache-maven/apache-maven-3.0.4/boot/plexus-classworlds-2.4.jar"/>
+        <property name="user.name" value="builder"/>
+        <property name="java.vm.specification.version" value="1.8"/>
+        <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f /home/c2c/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests/pom.xml --batch-mode exec:java -Dexec.mainClass=oracle.clouddev.test.selenium.RunTests -Dexec.args=selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=295 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="java.home" value="/usr/java/jdk1.8.0_74/jre"/>
+        <property name="sun.arch.data.model" value="64"/>
+        <property name="user.language" value="en"/>
+        <property name="java.specification.vendor" value="Oracle Corporation"/>
+        <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+        <property name="java.vm.info" value="mixed mode"/>
+        <property name="java.version" value="1.8.0_74"/>
+        <property name="securerandom.source" value="file:/dev/./urandom"/>
+        <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_74/jre/lib/ext:/usr/java/packages/lib/ext"/>
+        <property name="http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_74/jre/lib/resources.jar:/usr/java/jdk1.8.0_74/jre/lib/rt.jar:/usr/java/jdk1.8.0_74/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_74/jre/lib/jsse.jar:/usr/java/jdk1.8.0_74/jre/lib/jce.jar:/usr/java/jdk1.8.0_74/jre/lib/charsets.jar:/usr/java/jdk1.8.0_74/jre/lib/jfr.jar:/usr/java/jdk1.8.0_74/jre/classes"/>
+        <property name="java.vendor" value="Oracle Corporation"/>
+        <property name="maven.home" value="/usr/local/apache-maven/apache-maven-3.0.4"/>
+        <property name="file.separator" value="/"/>
+        <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+        <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+        <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+        <property name="sun.cpu.endian" value="little"/>
+        <property name="https.proxyPort" value="80"/>
+        <property name="exec.args" value="selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=295 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="sun.cpu.isalist" value=""/>
+        <property name="test.selenium.browser.size.h" value="960"/>
+        <property name="test.user.non-admin.name" value="tom.testsuite"/>
+        <property name="test.https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.user.admin.name" value="tina.testsuite"/>
+        <property name="test.user.em-agent.password" value="Welcome1!"/>
+        <property name="test.tag" value="base"/>
+        <property name="test.user.em-agent.fullname" value="Alex Admin"/>
+        <property name="test.selenium.port" value="44000"/>
+        <property name="test.build.number" value="295"/>
+        <property name="test.user.sdi-agent.enabled" value="true"/>
+        <property name="test.timeout.assert.condition" value="30"/>
+        <property name="test.target.version" value="{
+  &quot;buildInformation&quot; : {
+    &quot;gitCommitId&quot; : &quot;6415b9c07a83d336f513936eb79c4a925510b07b&quot;,
+    &quot;gitCommitMessage&quot; : &quot;Merge branch &apos;Fix18963&apos; into &apos;patchset_16_2_3&apos;&quot;,
+    &quot;buildTime&quot; : &quot;12.04.2016 @ 21:58:42 PDT&quot;,
+    &quot;buildUser&quot; : &quot;Code2Cloud Builder&quot;
+  }
+}"/>
+        <property name="test.build.job" value="dcs_dcs.Release-Selenium-Tests"/>
+        <property name="test.timeout.project.create" value="660"/>
+        <property name="test.user.sdi-agent.name" value="alex.admin"/>
+        <property name="test.selenium.browser" value="firefox"/>
+        <property name="test.http.proxyPort" value="80"/>
+        <property name="test.user.sdi-agent.password" value="Welcome1!"/>
+        <property name="test.user.sdi-agent.fullname" value="Alex Admin"/>
+        <property name="test.timeout.selenium.navigate" value="20"/>
+        <property name="test.target.release" value="16.2.3.0.0"/>
+        <property name="test.byom.ip" value="127.0.0.1"/>
+        <property name="test.byom.port" value="8585"/>
+        <property name="test.notification.type" value="swing"/>
+        <property name="test.data.project.override" value=""/>
+        <property name="test.timeout.selenium.find" value="1"/>
+        <property name="test.user.em-agent.enabled" value="true"/>
+        <property name="test.testEmptyOrg.db.id" value=""/>
+        <property name="test.reviews.timeout.slowdown" value="0"/>
+        <property name="test.http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="test.capture.video" value="true"/>
+        <property name="test.user.non-admin.password" value="Welcome1!"/>
+        <property name="test.user.non-admin.fullname" value="Tom Testsuite"/>
+        <property name="test.user.admin.password" value="Welcome1!"/>
+        <property name="test.notification.history" value="3"/>
+        <property name="test.user.admin.fullname" value="Tina Testsuite"/>
+        <property name="test.capture.screenshots" value="true"/>
+        <property name="test.testEmptyOrg.db.connectString" value="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=slc09iwb.us.oracle.com)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=dbpod)))"/>
+        <property name="test.firefox.bin" value=""/>
+        <property name="test.https.proxyPort" value="80"/>
+        <property name="test.develop.offline" value="false"/>
+        <property name="test.timeout.build.buildqueue.polling" value="60"/>
+        <property name="test.output.dir" value="target/test-reports/"/>
+        <property name="test.firefox.allowedHosts" value="localhost,localhost.localdomain"/>
+        <property name="test.testEmptyOrg.db.schema" value="BV2RLPNYEWMR"/>
+        <property name="test.web.url" value="http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/"/>
+        <property name="test.firefox.extensions" value=""/>
+        <property name="test.testEmptyOrg.orgExistsCheck" value="false"/>
+        <property name="test.data.dir" value="data/"/>
+        <property name="test.notification.font.size" value="15"/>
+        <property name="test.testEmptyOrg.service" value="devservice5"/>
+        <property name="test.selenium.start.server" value="false"/>
+        <property name="test.firefox.profile.path" value=""/>
+        <property name="test.selenium.host" value="localhost"/>
+        <property name="test.suite" value="BASE"/>
+        <property name="test.tests" value=""/>
+        <property name="test.user.admin.idm" value="dcsdevteam"/>
+        <property name="test.http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.testMethods" value=""/>
+        <property name="test.reviews.dontDeleteEnviroment" value="false"/>
+        <property name="test.selenium.browser.maximize" value="false"/>
+        <property name="test.firefox.profile.name" value=""/>
+        <property name="test.timeout.build.buildqueue" value="1200"/>
+        <property name="test.user.em-agent.idm" value="dcsdevteam"/>
+        <property name="test.selenium.remote" value="false"/>
+        <property name="test.user.sdi-agent.idm" value="dcsdevteam"/>
+        <property name="test.byom.authToken" value="123456"/>
+        <property name="test.proxy.autodetect" value="false"/>
+        <property name="test.testEmptyOrg.idm" value="dcsdevteam"/>
+        <property name="test.user.non-admin.idm" value="dcsdevteam"/>
+        <property name="test.data.tasks.useexisting" value="false"/>
+        <property name="test.selenium.browser.size.w" value="1280"/>
+        <property name="test.category" value="DEFAULT"/>
+        <property name="test.user.em-agent.name" value="alex.admin"/>
+        <property name="test.timeout.slowdown" value="0"/>
+      </properties>
+    <system-out>
+2016-04-12 23:30:38,899 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#200] POST http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2 HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-12 23:30:38,899 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#200] posted content:
+{
+  &quot;projectRelationship&quot; : &quot;ALL&quot;,
+  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,
+  &quot;shallowCopy&quot; : false
+}
+2016-04-12 23:30:38,899 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#200] cURL: curl -k -u tina.testsuite:Welcome1! -X POST &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2&apos; -H &apos;Content-Type: application/json; charset=UTF-8&apos; --data-binary &apos;{  &quot;projectRelationship&quot; : &quot;ALL&quot;,  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,  &quot;shallowCopy&quot; : false}&apos;
+2016-04-12 23:30:40,174 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#200] HTTP/1.1 200 OK
+2016-04-12 23:30:40,174 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#200] Content-Type: application/json;charset=UTF-8
+2016-04-12 23:30:40,174 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#200] Content-Length: -- no value --
+2016-04-12 23:30:40,282 DEBUG [oracle.clouddev.test.selenium.junit.BrowserSession] navigating to project qa-dev_test-shared-project1-1460525673052 (http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052)
+2016-04-12 23:30:40,335 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (oracle.clouddev.test.selenium.components.Conditions$5@4b89df0e) for element [By.xpath: .//button[@id=&apos;odcs-project-selector&apos;]/span[1]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:30:42,831 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element is visible)) for element [By.id: page-provision] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:30:43,867 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: odcs-nav-tabs] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:30:43,897 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:30:43,987 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element has style class &apos;oj-disabled&apos;)) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:30:44,057 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:30:44,685 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element has style class &apos;oj-active&apos;) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:30:44,942 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:30:45,160 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] TestWikiPage.createSampleWikiPage
+2016-04-12 23:30:45,160 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] TestWikiPage.createSampleWikiPage entering createPageInternal
+2016-04-12 23:30:45,196 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: wiki-newpage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:31:06,331 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Click on Save button.
+2016-04-12 23:31:06,348 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: wikiedit-save] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki/edit.
+2016-04-12 23:31:06,534 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Wait for the page to be saved and displayed...
+2016-04-12 23:31:08,548 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: editWikiPage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki/p/Sample%20Wiki%20To%20Test.
+2016-04-12 23:31:08,569 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Page has been created!
+    </system-out>
+    </testcase>
+    <testcase classname="oracle.clouddev.test.selenium.tests.base.TestWikiPage" name="cancelEdits" time="5.605">
+      <properties>
+        <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+        <property name="exec.mainClass" value="oracle.clouddev.test.selenium.RunTests"/>
+        <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_74/jre/lib/amd64"/>
+        <property name="java.vm.version" value="25.74-b02"/>
+        <property name="java.vm.vendor" value="Oracle Corporation"/>
+        <property name="java.vendor.url" value="http://java.oracle.com/"/>
+        <property name="guice.disable.misplaced.annotation.check" value="true"/>
+        <property name="path.separator" value=":"/>
+        <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+        <property name="file.encoding.pkg" value="sun.io"/>
+        <property name="user.country" value="US"/>
+        <property name="sun.java.launcher" value="SUN_STANDARD"/>
+        <property name="sun.os.patch.level" value="unknown"/>
+        <property name="http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+        <property name="user.dir" value="/home/builder/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests"/>
+        <property name="java.runtime.version" value="1.8.0_74-b02"/>
+        <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+        <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_74/jre/lib/endorsed"/>
+        <property name="os.arch" value="amd64"/>
+        <property name="java.io.tmpdir" value="/tmp"/>
+        <property name="line.separator" value="
+"/>
+        <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+        <property name="https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="os.name" value="Linux"/>
+        <property name="classworlds.conf" value="/usr/local/apache-maven/apache-maven-3.0.4/bin/m2.conf"/>
+        <property name="sun.jnu.encoding" value="UTF-8"/>
+        <property name="http.proxyPort" value="80"/>
+        <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+        <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+        <property name="java.specification.name" value="Java Platform API Specification"/>
+        <property name="java.class.version" value="52.0"/>
+        <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+        <property name="os.version" value="3.8.13-55.1.1.el6uek.x86_64"/>
+        <property name="user.home" value="/home/builder"/>
+        <property name="user.timezone" value="PST8PDT"/>
+        <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+        <property name="file.encoding" value="UTF-8"/>
+        <property name="java.specification.version" value="1.8"/>
+        <property name="java.class.path" value="/usr/local/apache-maven/apache-maven-3.0.4/boot/plexus-classworlds-2.4.jar"/>
+        <property name="user.name" value="builder"/>
+        <property name="java.vm.specification.version" value="1.8"/>
+        <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f /home/c2c/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests/pom.xml --batch-mode exec:java -Dexec.mainClass=oracle.clouddev.test.selenium.RunTests -Dexec.args=selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=295 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="java.home" value="/usr/java/jdk1.8.0_74/jre"/>
+        <property name="sun.arch.data.model" value="64"/>
+        <property name="user.language" value="en"/>
+        <property name="java.specification.vendor" value="Oracle Corporation"/>
+        <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+        <property name="java.vm.info" value="mixed mode"/>
+        <property name="java.version" value="1.8.0_74"/>
+        <property name="securerandom.source" value="file:/dev/./urandom"/>
+        <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_74/jre/lib/ext:/usr/java/packages/lib/ext"/>
+        <property name="http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_74/jre/lib/resources.jar:/usr/java/jdk1.8.0_74/jre/lib/rt.jar:/usr/java/jdk1.8.0_74/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_74/jre/lib/jsse.jar:/usr/java/jdk1.8.0_74/jre/lib/jce.jar:/usr/java/jdk1.8.0_74/jre/lib/charsets.jar:/usr/java/jdk1.8.0_74/jre/lib/jfr.jar:/usr/java/jdk1.8.0_74/jre/classes"/>
+        <property name="java.vendor" value="Oracle Corporation"/>
+        <property name="maven.home" value="/usr/local/apache-maven/apache-maven-3.0.4"/>
+        <property name="file.separator" value="/"/>
+        <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+        <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+        <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+        <property name="sun.cpu.endian" value="little"/>
+        <property name="https.proxyPort" value="80"/>
+        <property name="exec.args" value="selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=295 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="sun.cpu.isalist" value=""/>
+        <property name="test.selenium.browser.size.h" value="960"/>
+        <property name="test.user.non-admin.name" value="tom.testsuite"/>
+        <property name="test.https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.user.admin.name" value="tina.testsuite"/>
+        <property name="test.user.em-agent.password" value="Welcome1!"/>
+        <property name="test.tag" value="base"/>
+        <property name="test.user.em-agent.fullname" value="Alex Admin"/>
+        <property name="test.selenium.port" value="44000"/>
+        <property name="test.build.number" value="295"/>
+        <property name="test.user.sdi-agent.enabled" value="true"/>
+        <property name="test.timeout.assert.condition" value="30"/>
+        <property name="test.target.version" value="{
+  &quot;buildInformation&quot; : {
+    &quot;gitCommitId&quot; : &quot;6415b9c07a83d336f513936eb79c4a925510b07b&quot;,
+    &quot;gitCommitMessage&quot; : &quot;Merge branch &apos;Fix18963&apos; into &apos;patchset_16_2_3&apos;&quot;,
+    &quot;buildTime&quot; : &quot;12.04.2016 @ 21:58:42 PDT&quot;,
+    &quot;buildUser&quot; : &quot;Code2Cloud Builder&quot;
+  }
+}"/>
+        <property name="test.build.job" value="dcs_dcs.Release-Selenium-Tests"/>
+        <property name="test.timeout.project.create" value="660"/>
+        <property name="test.user.sdi-agent.name" value="alex.admin"/>
+        <property name="test.selenium.browser" value="firefox"/>
+        <property name="test.http.proxyPort" value="80"/>
+        <property name="test.user.sdi-agent.password" value="Welcome1!"/>
+        <property name="test.user.sdi-agent.fullname" value="Alex Admin"/>
+        <property name="test.timeout.selenium.navigate" value="20"/>
+        <property name="test.target.release" value="16.2.3.0.0"/>
+        <property name="test.byom.ip" value="127.0.0.1"/>
+        <property name="test.byom.port" value="8585"/>
+        <property name="test.notification.type" value="swing"/>
+        <property name="test.data.project.override" value=""/>
+        <property name="test.timeout.selenium.find" value="1"/>
+        <property name="test.user.em-agent.enabled" value="true"/>
+        <property name="test.testEmptyOrg.db.id" value=""/>
+        <property name="test.reviews.timeout.slowdown" value="0"/>
+        <property name="test.http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="test.capture.video" value="true"/>
+        <property name="test.user.non-admin.password" value="Welcome1!"/>
+        <property name="test.user.non-admin.fullname" value="Tom Testsuite"/>
+        <property name="test.user.admin.password" value="Welcome1!"/>
+        <property name="test.notification.history" value="3"/>
+        <property name="test.user.admin.fullname" value="Tina Testsuite"/>
+        <property name="test.capture.screenshots" value="true"/>
+        <property name="test.testEmptyOrg.db.connectString" value="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=slc09iwb.us.oracle.com)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=dbpod)))"/>
+        <property name="test.firefox.bin" value=""/>
+        <property name="test.https.proxyPort" value="80"/>
+        <property name="test.develop.offline" value="false"/>
+        <property name="test.timeout.build.buildqueue.polling" value="60"/>
+        <property name="test.output.dir" value="target/test-reports/"/>
+        <property name="test.firefox.allowedHosts" value="localhost,localhost.localdomain"/>
+        <property name="test.testEmptyOrg.db.schema" value="BV2RLPNYEWMR"/>
+        <property name="test.web.url" value="http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/"/>
+        <property name="test.firefox.extensions" value=""/>
+        <property name="test.testEmptyOrg.orgExistsCheck" value="false"/>
+        <property name="test.data.dir" value="data/"/>
+        <property name="test.notification.font.size" value="15"/>
+        <property name="test.testEmptyOrg.service" value="devservice5"/>
+        <property name="test.selenium.start.server" value="false"/>
+        <property name="test.firefox.profile.path" value=""/>
+        <property name="test.selenium.host" value="localhost"/>
+        <property name="test.suite" value="BASE"/>
+        <property name="test.tests" value=""/>
+        <property name="test.user.admin.idm" value="dcsdevteam"/>
+        <property name="test.http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.testMethods" value=""/>
+        <property name="test.reviews.dontDeleteEnviroment" value="false"/>
+        <property name="test.selenium.browser.maximize" value="false"/>
+        <property name="test.firefox.profile.name" value=""/>
+        <property name="test.timeout.build.buildqueue" value="1200"/>
+        <property name="test.user.em-agent.idm" value="dcsdevteam"/>
+        <property name="test.selenium.remote" value="false"/>
+        <property name="test.user.sdi-agent.idm" value="dcsdevteam"/>
+        <property name="test.byom.authToken" value="123456"/>
+        <property name="test.proxy.autodetect" value="false"/>
+        <property name="test.testEmptyOrg.idm" value="dcsdevteam"/>
+        <property name="test.user.non-admin.idm" value="dcsdevteam"/>
+        <property name="test.data.tasks.useexisting" value="false"/>
+        <property name="test.selenium.browser.size.w" value="1280"/>
+        <property name="test.category" value="DEFAULT"/>
+        <property name="test.user.em-agent.name" value="alex.admin"/>
+        <property name="test.timeout.slowdown" value="0"/>
+      </properties>
+    <system-out>
+2016-04-12 23:31:08,571 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#201] POST http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2 HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-12 23:31:08,571 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#201] posted content:
+{
+  &quot;projectRelationship&quot; : &quot;ALL&quot;,
+  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,
+  &quot;shallowCopy&quot; : false
+}
+2016-04-12 23:31:08,571 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#201] cURL: curl -k -u tina.testsuite:Welcome1! -X POST &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2&apos; -H &apos;Content-Type: application/json; charset=UTF-8&apos; --data-binary &apos;{  &quot;projectRelationship&quot; : &quot;ALL&quot;,  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,  &quot;shallowCopy&quot; : false}&apos;
+2016-04-12 23:31:09,980 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#201] HTTP/1.1 200 OK
+2016-04-12 23:31:09,980 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#201] Content-Type: application/json;charset=UTF-8
+2016-04-12 23:31:09,980 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#201] Content-Length: -- no value --
+2016-04-12 23:31:10,091 DEBUG [oracle.clouddev.test.selenium.junit.BrowserSession] navigating to project qa-dev_test-shared-project1-1460525673052 (http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052)
+2016-04-12 23:31:10,902 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (oracle.clouddev.test.selenium.components.Conditions$5@6c65ae3d) for element [By.xpath: .//button[@id=&apos;odcs-project-selector&apos;]/span[1]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:31:10,937 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element is visible)) for element [By.id: page-provision] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:31:11,964 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: odcs-nav-tabs] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:31:11,989 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:31:12,016 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element has style class &apos;oj-disabled&apos;)) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:31:12,045 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:31:12,300 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element has style class &apos;oj-active&apos;) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:31:12,341 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:31:12,468 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: wiki-newpage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:31:12,798 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: wiki-path] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki/edit.
+2016-04-12 23:31:14,156 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: wiki-newpage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+    </system-out>
+    </testcase>
+    <testcase classname="oracle.clouddev.test.selenium.tests.base.TestWikiPage" name="createEmptyPages" time="142.942">
+      <properties>
+        <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+        <property name="exec.mainClass" value="oracle.clouddev.test.selenium.RunTests"/>
+        <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_74/jre/lib/amd64"/>
+        <property name="java.vm.version" value="25.74-b02"/>
+        <property name="java.vm.vendor" value="Oracle Corporation"/>
+        <property name="java.vendor.url" value="http://java.oracle.com/"/>
+        <property name="guice.disable.misplaced.annotation.check" value="true"/>
+        <property name="path.separator" value=":"/>
+        <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+        <property name="file.encoding.pkg" value="sun.io"/>
+        <property name="user.country" value="US"/>
+        <property name="sun.java.launcher" value="SUN_STANDARD"/>
+        <property name="sun.os.patch.level" value="unknown"/>
+        <property name="http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+        <property name="user.dir" value="/home/builder/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests"/>
+        <property name="java.runtime.version" value="1.8.0_74-b02"/>
+        <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+        <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_74/jre/lib/endorsed"/>
+        <property name="os.arch" value="amd64"/>
+        <property name="java.io.tmpdir" value="/tmp"/>
+        <property name="line.separator" value="
+"/>
+        <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+        <property name="https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="os.name" value="Linux"/>
+        <property name="classworlds.conf" value="/usr/local/apache-maven/apache-maven-3.0.4/bin/m2.conf"/>
+        <property name="sun.jnu.encoding" value="UTF-8"/>
+        <property name="http.proxyPort" value="80"/>
+        <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+        <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+        <property name="java.specification.name" value="Java Platform API Specification"/>
+        <property name="java.class.version" value="52.0"/>
+        <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+        <property name="os.version" value="3.8.13-55.1.1.el6uek.x86_64"/>
+        <property name="user.home" value="/home/builder"/>
+        <property name="user.timezone" value="PST8PDT"/>
+        <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+        <property name="file.encoding" value="UTF-8"/>
+        <property name="java.specification.version" value="1.8"/>
+        <property name="java.class.path" value="/usr/local/apache-maven/apache-maven-3.0.4/boot/plexus-classworlds-2.4.jar"/>
+        <property name="user.name" value="builder"/>
+        <property name="java.vm.specification.version" value="1.8"/>
+        <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f /home/c2c/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests/pom.xml --batch-mode exec:java -Dexec.mainClass=oracle.clouddev.test.selenium.RunTests -Dexec.args=selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=295 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="java.home" value="/usr/java/jdk1.8.0_74/jre"/>
+        <property name="sun.arch.data.model" value="64"/>
+        <property name="user.language" value="en"/>
+        <property name="java.specification.vendor" value="Oracle Corporation"/>
+        <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+        <property name="java.vm.info" value="mixed mode"/>
+        <property name="java.version" value="1.8.0_74"/>
+        <property name="securerandom.source" value="file:/dev/./urandom"/>
+        <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_74/jre/lib/ext:/usr/java/packages/lib/ext"/>
+        <property name="http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_74/jre/lib/resources.jar:/usr/java/jdk1.8.0_74/jre/lib/rt.jar:/usr/java/jdk1.8.0_74/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_74/jre/lib/jsse.jar:/usr/java/jdk1.8.0_74/jre/lib/jce.jar:/usr/java/jdk1.8.0_74/jre/lib/charsets.jar:/usr/java/jdk1.8.0_74/jre/lib/jfr.jar:/usr/java/jdk1.8.0_74/jre/classes"/>
+        <property name="java.vendor" value="Oracle Corporation"/>
+        <property name="maven.home" value="/usr/local/apache-maven/apache-maven-3.0.4"/>
+        <property name="file.separator" value="/"/>
+        <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+        <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+        <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+        <property name="sun.cpu.endian" value="little"/>
+        <property name="https.proxyPort" value="80"/>
+        <property name="exec.args" value="selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=295 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="sun.cpu.isalist" value=""/>
+        <property name="test.selenium.browser.size.h" value="960"/>
+        <property name="test.user.non-admin.name" value="tom.testsuite"/>
+        <property name="test.https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.user.admin.name" value="tina.testsuite"/>
+        <property name="test.user.em-agent.password" value="Welcome1!"/>
+        <property name="test.tag" value="base"/>
+        <property name="test.user.em-agent.fullname" value="Alex Admin"/>
+        <property name="test.selenium.port" value="44000"/>
+        <property name="test.build.number" value="295"/>
+        <property name="test.user.sdi-agent.enabled" value="true"/>
+        <property name="test.timeout.assert.condition" value="30"/>
+        <property name="test.target.version" value="{
+  &quot;buildInformation&quot; : {
+    &quot;gitCommitId&quot; : &quot;6415b9c07a83d336f513936eb79c4a925510b07b&quot;,
+    &quot;gitCommitMessage&quot; : &quot;Merge branch &apos;Fix18963&apos; into &apos;patchset_16_2_3&apos;&quot;,
+    &quot;buildTime&quot; : &quot;12.04.2016 @ 21:58:42 PDT&quot;,
+    &quot;buildUser&quot; : &quot;Code2Cloud Builder&quot;
+  }
+}"/>
+        <property name="test.build.job" value="dcs_dcs.Release-Selenium-Tests"/>
+        <property name="test.timeout.project.create" value="660"/>
+        <property name="test.user.sdi-agent.name" value="alex.admin"/>
+        <property name="test.selenium.browser" value="firefox"/>
+        <property name="test.http.proxyPort" value="80"/>
+        <property name="test.user.sdi-agent.password" value="Welcome1!"/>
+        <property name="test.user.sdi-agent.fullname" value="Alex Admin"/>
+        <property name="test.timeout.selenium.navigate" value="20"/>
+        <property name="test.target.release" value="16.2.3.0.0"/>
+        <property name="test.byom.ip" value="127.0.0.1"/>
+        <property name="test.byom.port" value="8585"/>
+        <property name="test.notification.type" value="swing"/>
+        <property name="test.data.project.override" value=""/>
+        <property name="test.timeout.selenium.find" value="1"/>
+        <property name="test.user.em-agent.enabled" value="true"/>
+        <property name="test.testEmptyOrg.db.id" value=""/>
+        <property name="test.reviews.timeout.slowdown" value="0"/>
+        <property name="test.http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="test.capture.video" value="true"/>
+        <property name="test.user.non-admin.password" value="Welcome1!"/>
+        <property name="test.user.non-admin.fullname" value="Tom Testsuite"/>
+        <property name="test.user.admin.password" value="Welcome1!"/>
+        <property name="test.notification.history" value="3"/>
+        <property name="test.user.admin.fullname" value="Tina Testsuite"/>
+        <property name="test.capture.screenshots" value="true"/>
+        <property name="test.testEmptyOrg.db.connectString" value="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=slc09iwb.us.oracle.com)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=dbpod)))"/>
+        <property name="test.firefox.bin" value=""/>
+        <property name="test.https.proxyPort" value="80"/>
+        <property name="test.develop.offline" value="false"/>
+        <property name="test.timeout.build.buildqueue.polling" value="60"/>
+        <property name="test.output.dir" value="target/test-reports/"/>
+        <property name="test.firefox.allowedHosts" value="localhost,localhost.localdomain"/>
+        <property name="test.testEmptyOrg.db.schema" value="BV2RLPNYEWMR"/>
+        <property name="test.web.url" value="http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/"/>
+        <property name="test.firefox.extensions" value=""/>
+        <property name="test.testEmptyOrg.orgExistsCheck" value="false"/>
+        <property name="test.data.dir" value="data/"/>
+        <property name="test.notification.font.size" value="15"/>
+        <property name="test.testEmptyOrg.service" value="devservice5"/>
+        <property name="test.selenium.start.server" value="false"/>
+        <property name="test.firefox.profile.path" value=""/>
+        <property name="test.selenium.host" value="localhost"/>
+        <property name="test.suite" value="BASE"/>
+        <property name="test.tests" value=""/>
+        <property name="test.user.admin.idm" value="dcsdevteam"/>
+        <property name="test.http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.testMethods" value=""/>
+        <property name="test.reviews.dontDeleteEnviroment" value="false"/>
+        <property name="test.selenium.browser.maximize" value="false"/>
+        <property name="test.firefox.profile.name" value=""/>
+        <property name="test.timeout.build.buildqueue" value="1200"/>
+        <property name="test.user.em-agent.idm" value="dcsdevteam"/>
+        <property name="test.selenium.remote" value="false"/>
+        <property name="test.user.sdi-agent.idm" value="dcsdevteam"/>
+        <property name="test.byom.authToken" value="123456"/>
+        <property name="test.proxy.autodetect" value="false"/>
+        <property name="test.testEmptyOrg.idm" value="dcsdevteam"/>
+        <property name="test.user.non-admin.idm" value="dcsdevteam"/>
+        <property name="test.data.tasks.useexisting" value="false"/>
+        <property name="test.selenium.browser.size.w" value="1280"/>
+        <property name="test.category" value="DEFAULT"/>
+        <property name="test.user.em-agent.name" value="alex.admin"/>
+        <property name="test.timeout.slowdown" value="0"/>
+      </properties>
+    <system-out>
+2016-04-12 23:31:14,177 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#202] POST http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2 HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-12 23:31:14,177 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#202] posted content:
+{
+  &quot;projectRelationship&quot; : &quot;ALL&quot;,
+  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,
+  &quot;shallowCopy&quot; : false
+}
+2016-04-12 23:31:14,177 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#202] cURL: curl -k -u tina.testsuite:Welcome1! -X POST &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2&apos; -H &apos;Content-Type: application/json; charset=UTF-8&apos; --data-binary &apos;{  &quot;projectRelationship&quot; : &quot;ALL&quot;,  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,  &quot;shallowCopy&quot; : false}&apos;
+2016-04-12 23:31:15,623 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#202] HTTP/1.1 200 OK
+2016-04-12 23:31:15,624 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#202] Content-Type: application/json;charset=UTF-8
+2016-04-12 23:31:15,624 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#202] Content-Length: -- no value --
+2016-04-12 23:31:15,726 DEBUG [oracle.clouddev.test.selenium.junit.BrowserSession] navigating to project qa-dev_test-shared-project1-1460525673052 (http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052)
+2016-04-12 23:31:16,512 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (oracle.clouddev.test.selenium.components.Conditions$5@24cae74b) for element [By.xpath: .//button[@id=&apos;odcs-project-selector&apos;]/span[1]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:31:16,550 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element is visible)) for element [By.id: page-provision] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:31:17,648 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: odcs-nav-tabs] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:31:17,681 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:31:17,882 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element has style class &apos;oj-disabled&apos;)) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:31:18,021 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:31:18,272 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element has style class &apos;oj-active&apos;) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:31:18,383 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:31:18,503 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] TestWikiPage.createEmptyPages entering createPageInternal
+2016-04-12 23:31:18,522 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: wiki-newpage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:31:39,201 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Click on Save button.
+2016-04-12 23:31:39,232 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: wikiedit-save] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki/edit.
+2016-04-12 23:31:39,556 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Wait for the page to be saved and displayed...
+2016-04-12 23:31:41,591 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: editWikiPage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki/p/ODCS%20Wiki%20Entry%20997971.
+2016-04-12 23:31:41,626 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Page has been created!
+2016-04-12 23:31:41,628 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#203] POST http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2 HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-12 23:31:41,628 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#203] posted content:
+{
+  &quot;projectRelationship&quot; : &quot;ALL&quot;,
+  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,
+  &quot;shallowCopy&quot; : false
+}
+2016-04-12 23:31:41,628 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#203] cURL: curl -k -u tina.testsuite:Welcome1! -X POST &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2&apos; -H &apos;Content-Type: application/json; charset=UTF-8&apos; --data-binary &apos;{  &quot;projectRelationship&quot; : &quot;ALL&quot;,  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,  &quot;shallowCopy&quot; : false}&apos;
+2016-04-12 23:31:43,022 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#203] HTTP/1.1 200 OK
+2016-04-12 23:31:43,022 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#203] Content-Type: application/json;charset=UTF-8
+2016-04-12 23:31:43,022 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#203] Content-Length: -- no value --
+2016-04-12 23:31:43,189 DEBUG [oracle.clouddev.test.selenium.junit.BrowserSession] navigating to project qa-dev_test-shared-project1-1460525673052 (http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052)
+2016-04-12 23:31:44,724 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (oracle.clouddev.test.selenium.components.Conditions$5@3d3d6f81) for element [By.xpath: .//button[@id=&apos;odcs-project-selector&apos;]/span[1]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:31:44,772 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element is visible)) for element [By.id: page-provision] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:31:45,803 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: odcs-nav-tabs] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:31:45,857 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:31:45,911 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element has style class &apos;oj-disabled&apos;)) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:31:45,945 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:31:46,572 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element has style class &apos;oj-active&apos;) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:31:46,654 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:31:46,796 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] TestWikiPage.createEmptyPages entering createPageInternal
+2016-04-12 23:31:46,825 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: wiki-newpage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:32:07,614 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Click on Save button.
+2016-04-12 23:32:07,631 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: wikiedit-save] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki/edit.
+2016-04-12 23:32:07,812 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Wait for the page to be saved and displayed...
+2016-04-12 23:32:09,828 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: editWikiPage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki/p/ODCS%20Wiki%20Entry%20248421.
+2016-04-12 23:32:09,855 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Page has been created!
+2016-04-12 23:32:09,857 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#204] POST http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2 HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-12 23:32:09,857 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#204] posted content:
+{
+  &quot;projectRelationship&quot; : &quot;ALL&quot;,
+  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,
+  &quot;shallowCopy&quot; : false
+}
+2016-04-12 23:32:09,857 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#204] cURL: curl -k -u tina.testsuite:Welcome1! -X POST &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2&apos; -H &apos;Content-Type: application/json; charset=UTF-8&apos; --data-binary &apos;{  &quot;projectRelationship&quot; : &quot;ALL&quot;,  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,  &quot;shallowCopy&quot; : false}&apos;
+2016-04-12 23:32:11,161 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#204] HTTP/1.1 200 OK
+2016-04-12 23:32:11,161 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#204] Content-Type: application/json;charset=UTF-8
+2016-04-12 23:32:11,161 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#204] Content-Length: -- no value --
+2016-04-12 23:32:11,293 DEBUG [oracle.clouddev.test.selenium.junit.BrowserSession] navigating to project qa-dev_test-shared-project1-1460525673052 (http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052)
+2016-04-12 23:32:12,243 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (oracle.clouddev.test.selenium.components.Conditions$5@211a0a6c) for element [By.xpath: .//button[@id=&apos;odcs-project-selector&apos;]/span[1]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:32:12,274 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element is visible)) for element [By.id: page-provision] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:32:13,296 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: odcs-nav-tabs] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:32:13,316 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:32:13,340 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element has style class &apos;oj-disabled&apos;)) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:32:13,368 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:32:13,765 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element has style class &apos;oj-active&apos;) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:32:13,795 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:32:13,896 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] TestWikiPage.createEmptyPages entering createPageInternal
+2016-04-12 23:32:13,915 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: wiki-newpage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:32:34,477 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Click on Save button.
+2016-04-12 23:32:34,496 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: wikiedit-save] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki/edit.
+2016-04-12 23:32:34,793 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Wait for the page to be saved and displayed...
+2016-04-12 23:32:36,814 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: editWikiPage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki/p/ODCS%20Wiki%20Entry%20202124.
+2016-04-12 23:32:36,866 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Page has been created!
+2016-04-12 23:32:36,867 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#205] POST http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2 HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-12 23:32:36,867 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#205] posted content:
+{
+  &quot;projectRelationship&quot; : &quot;ALL&quot;,
+  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,
+  &quot;shallowCopy&quot; : false
+}
+2016-04-12 23:32:36,867 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#205] cURL: curl -k -u tina.testsuite:Welcome1! -X POST &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2&apos; -H &apos;Content-Type: application/json; charset=UTF-8&apos; --data-binary &apos;{  &quot;projectRelationship&quot; : &quot;ALL&quot;,  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,  &quot;shallowCopy&quot; : false}&apos;
+2016-04-12 23:32:37,971 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#205] HTTP/1.1 200 OK
+2016-04-12 23:32:37,971 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#205] Content-Type: application/json;charset=UTF-8
+2016-04-12 23:32:37,971 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#205] Content-Length: -- no value --
+2016-04-12 23:32:38,109 DEBUG [oracle.clouddev.test.selenium.junit.BrowserSession] navigating to project qa-dev_test-shared-project1-1460525673052 (http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052)
+2016-04-12 23:32:39,629 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (oracle.clouddev.test.selenium.components.Conditions$5@1bedec56) for element [By.xpath: .//button[@id=&apos;odcs-project-selector&apos;]/span[1]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:32:39,662 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element is visible)) for element [By.id: page-provision] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:32:40,685 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: odcs-nav-tabs] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:32:40,732 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:32:40,788 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element has style class &apos;oj-disabled&apos;)) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:32:40,828 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:32:41,428 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element has style class &apos;oj-active&apos;) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:32:41,512 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:32:41,663 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] TestWikiPage.createEmptyPages entering createPageInternal
+2016-04-12 23:32:41,688 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: wiki-newpage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:33:02,385 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Click on Save button.
+2016-04-12 23:33:02,398 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: wikiedit-save] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki/edit.
+2016-04-12 23:33:02,994 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Wait for the page to be saved and displayed...
+2016-04-12 23:33:05,006 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: editWikiPage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki/p/ODCS%20Wiki%20Entry%20347110.
+2016-04-12 23:33:05,029 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Page has been created!
+2016-04-12 23:33:05,030 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#206] POST http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2 HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-12 23:33:05,030 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#206] posted content:
+{
+  &quot;projectRelationship&quot; : &quot;ALL&quot;,
+  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,
+  &quot;shallowCopy&quot; : false
+}
+2016-04-12 23:33:05,030 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#206] cURL: curl -k -u tina.testsuite:Welcome1! -X POST &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2&apos; -H &apos;Content-Type: application/json; charset=UTF-8&apos; --data-binary &apos;{  &quot;projectRelationship&quot; : &quot;ALL&quot;,  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,  &quot;shallowCopy&quot; : false}&apos;
+2016-04-12 23:33:06,250 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#206] HTTP/1.1 200 OK
+2016-04-12 23:33:06,250 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#206] Content-Type: application/json;charset=UTF-8
+2016-04-12 23:33:06,250 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#206] Content-Length: -- no value --
+2016-04-12 23:33:06,362 DEBUG [oracle.clouddev.test.selenium.junit.BrowserSession] navigating to project qa-dev_test-shared-project1-1460525673052 (http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052)
+2016-04-12 23:33:07,338 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (oracle.clouddev.test.selenium.components.Conditions$5@47166bfb) for element [By.xpath: .//button[@id=&apos;odcs-project-selector&apos;]/span[1]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:07,375 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element is visible)) for element [By.id: page-provision] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:08,400 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: odcs-nav-tabs] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:08,421 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:08,449 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element has style class &apos;oj-disabled&apos;)) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:08,480 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:08,882 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element has style class &apos;oj-active&apos;) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:33:08,909 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:33:09,015 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] TestWikiPage.createEmptyPages entering createPageInternal
+2016-04-12 23:33:09,032 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: wiki-newpage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:33:29,628 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Click on Save button.
+2016-04-12 23:33:29,656 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: wikiedit-save] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki/edit.
+2016-04-12 23:33:30,004 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Wait for the page to be saved and displayed...
+2016-04-12 23:33:32,026 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: editWikiPage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki/p/ODCS%20Wiki%20Entry%20971255.
+2016-04-12 23:33:32,074 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Page has been created!
+2016-04-12 23:33:32,076 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#207] POST http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2 HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-12 23:33:32,076 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#207] posted content:
+{
+  &quot;projectRelationship&quot; : &quot;ALL&quot;,
+  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,
+  &quot;shallowCopy&quot; : false
+}
+2016-04-12 23:33:32,076 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#207] cURL: curl -k -u tina.testsuite:Welcome1! -X POST &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2&apos; -H &apos;Content-Type: application/json; charset=UTF-8&apos; --data-binary &apos;{  &quot;projectRelationship&quot; : &quot;ALL&quot;,  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,  &quot;shallowCopy&quot; : false}&apos;
+2016-04-12 23:33:33,360 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#207] HTTP/1.1 200 OK
+2016-04-12 23:33:33,360 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#207] Content-Type: application/json;charset=UTF-8
+2016-04-12 23:33:33,360 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#207] Content-Length: -- no value --
+2016-04-12 23:33:33,506 DEBUG [oracle.clouddev.test.selenium.junit.BrowserSession] navigating to project qa-dev_test-shared-project1-1460525673052 (http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052)
+2016-04-12 23:33:35,106 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (oracle.clouddev.test.selenium.components.Conditions$5@2b4d73ac) for element [By.xpath: .//button[@id=&apos;odcs-project-selector&apos;]/span[1]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:35,172 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element is visible)) for element [By.id: page-provision] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:36,192 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: odcs-nav-tabs] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:36,222 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:36,283 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element has style class &apos;oj-disabled&apos;)) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:36,343 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:36,917 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element has style class &apos;oj-active&apos;) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:33:36,950 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+    </system-out>
+    </testcase>
+    <testcase classname="oracle.clouddev.test.selenium.tests.base.TestWikiPage" name="editSampleWikiTextPage" time="9.796">
+      <properties>
+        <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+        <property name="exec.mainClass" value="oracle.clouddev.test.selenium.RunTests"/>
+        <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_74/jre/lib/amd64"/>
+        <property name="java.vm.version" value="25.74-b02"/>
+        <property name="java.vm.vendor" value="Oracle Corporation"/>
+        <property name="java.vendor.url" value="http://java.oracle.com/"/>
+        <property name="guice.disable.misplaced.annotation.check" value="true"/>
+        <property name="path.separator" value=":"/>
+        <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+        <property name="file.encoding.pkg" value="sun.io"/>
+        <property name="user.country" value="US"/>
+        <property name="sun.java.launcher" value="SUN_STANDARD"/>
+        <property name="sun.os.patch.level" value="unknown"/>
+        <property name="http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+        <property name="user.dir" value="/home/builder/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests"/>
+        <property name="java.runtime.version" value="1.8.0_74-b02"/>
+        <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+        <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_74/jre/lib/endorsed"/>
+        <property name="os.arch" value="amd64"/>
+        <property name="java.io.tmpdir" value="/tmp"/>
+        <property name="line.separator" value="
+"/>
+        <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+        <property name="https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="os.name" value="Linux"/>
+        <property name="classworlds.conf" value="/usr/local/apache-maven/apache-maven-3.0.4/bin/m2.conf"/>
+        <property name="sun.jnu.encoding" value="UTF-8"/>
+        <property name="http.proxyPort" value="80"/>
+        <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+        <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+        <property name="java.specification.name" value="Java Platform API Specification"/>
+        <property name="java.class.version" value="52.0"/>
+        <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+        <property name="os.version" value="3.8.13-55.1.1.el6uek.x86_64"/>
+        <property name="user.home" value="/home/builder"/>
+        <property name="user.timezone" value="PST8PDT"/>
+        <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+        <property name="file.encoding" value="UTF-8"/>
+        <property name="java.specification.version" value="1.8"/>
+        <property name="java.class.path" value="/usr/local/apache-maven/apache-maven-3.0.4/boot/plexus-classworlds-2.4.jar"/>
+        <property name="user.name" value="builder"/>
+        <property name="java.vm.specification.version" value="1.8"/>
+        <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f /home/c2c/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests/pom.xml --batch-mode exec:java -Dexec.mainClass=oracle.clouddev.test.selenium.RunTests -Dexec.args=selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=295 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="java.home" value="/usr/java/jdk1.8.0_74/jre"/>
+        <property name="sun.arch.data.model" value="64"/>
+        <property name="user.language" value="en"/>
+        <property name="java.specification.vendor" value="Oracle Corporation"/>
+        <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+        <property name="java.vm.info" value="mixed mode"/>
+        <property name="java.version" value="1.8.0_74"/>
+        <property name="securerandom.source" value="file:/dev/./urandom"/>
+        <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_74/jre/lib/ext:/usr/java/packages/lib/ext"/>
+        <property name="http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_74/jre/lib/resources.jar:/usr/java/jdk1.8.0_74/jre/lib/rt.jar:/usr/java/jdk1.8.0_74/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_74/jre/lib/jsse.jar:/usr/java/jdk1.8.0_74/jre/lib/jce.jar:/usr/java/jdk1.8.0_74/jre/lib/charsets.jar:/usr/java/jdk1.8.0_74/jre/lib/jfr.jar:/usr/java/jdk1.8.0_74/jre/classes"/>
+        <property name="java.vendor" value="Oracle Corporation"/>
+        <property name="maven.home" value="/usr/local/apache-maven/apache-maven-3.0.4"/>
+        <property name="file.separator" value="/"/>
+        <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+        <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+        <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+        <property name="sun.cpu.endian" value="little"/>
+        <property name="https.proxyPort" value="80"/>
+        <property name="exec.args" value="selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=295 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="sun.cpu.isalist" value=""/>
+        <property name="test.selenium.browser.size.h" value="960"/>
+        <property name="test.user.non-admin.name" value="tom.testsuite"/>
+        <property name="test.https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.user.admin.name" value="tina.testsuite"/>
+        <property name="test.user.em-agent.password" value="Welcome1!"/>
+        <property name="test.tag" value="base"/>
+        <property name="test.user.em-agent.fullname" value="Alex Admin"/>
+        <property name="test.selenium.port" value="44000"/>
+        <property name="test.build.number" value="295"/>
+        <property name="test.user.sdi-agent.enabled" value="true"/>
+        <property name="test.timeout.assert.condition" value="30"/>
+        <property name="test.target.version" value="{
+  &quot;buildInformation&quot; : {
+    &quot;gitCommitId&quot; : &quot;6415b9c07a83d336f513936eb79c4a925510b07b&quot;,
+    &quot;gitCommitMessage&quot; : &quot;Merge branch &apos;Fix18963&apos; into &apos;patchset_16_2_3&apos;&quot;,
+    &quot;buildTime&quot; : &quot;12.04.2016 @ 21:58:42 PDT&quot;,
+    &quot;buildUser&quot; : &quot;Code2Cloud Builder&quot;
+  }
+}"/>
+        <property name="test.build.job" value="dcs_dcs.Release-Selenium-Tests"/>
+        <property name="test.timeout.project.create" value="660"/>
+        <property name="test.user.sdi-agent.name" value="alex.admin"/>
+        <property name="test.selenium.browser" value="firefox"/>
+        <property name="test.http.proxyPort" value="80"/>
+        <property name="test.user.sdi-agent.password" value="Welcome1!"/>
+        <property name="test.user.sdi-agent.fullname" value="Alex Admin"/>
+        <property name="test.timeout.selenium.navigate" value="20"/>
+        <property name="test.target.release" value="16.2.3.0.0"/>
+        <property name="test.byom.ip" value="127.0.0.1"/>
+        <property name="test.byom.port" value="8585"/>
+        <property name="test.notification.type" value="swing"/>
+        <property name="test.data.project.override" value=""/>
+        <property name="test.timeout.selenium.find" value="1"/>
+        <property name="test.user.em-agent.enabled" value="true"/>
+        <property name="test.testEmptyOrg.db.id" value=""/>
+        <property name="test.reviews.timeout.slowdown" value="0"/>
+        <property name="test.http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="test.capture.video" value="true"/>
+        <property name="test.user.non-admin.password" value="Welcome1!"/>
+        <property name="test.user.non-admin.fullname" value="Tom Testsuite"/>
+        <property name="test.user.admin.password" value="Welcome1!"/>
+        <property name="test.notification.history" value="3"/>
+        <property name="test.user.admin.fullname" value="Tina Testsuite"/>
+        <property name="test.capture.screenshots" value="true"/>
+        <property name="test.testEmptyOrg.db.connectString" value="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=slc09iwb.us.oracle.com)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=dbpod)))"/>
+        <property name="test.firefox.bin" value=""/>
+        <property name="test.https.proxyPort" value="80"/>
+        <property name="test.develop.offline" value="false"/>
+        <property name="test.timeout.build.buildqueue.polling" value="60"/>
+        <property name="test.output.dir" value="target/test-reports/"/>
+        <property name="test.firefox.allowedHosts" value="localhost,localhost.localdomain"/>
+        <property name="test.testEmptyOrg.db.schema" value="BV2RLPNYEWMR"/>
+        <property name="test.web.url" value="http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/"/>
+        <property name="test.firefox.extensions" value=""/>
+        <property name="test.testEmptyOrg.orgExistsCheck" value="false"/>
+        <property name="test.data.dir" value="data/"/>
+        <property name="test.notification.font.size" value="15"/>
+        <property name="test.testEmptyOrg.service" value="devservice5"/>
+        <property name="test.selenium.start.server" value="false"/>
+        <property name="test.firefox.profile.path" value=""/>
+        <property name="test.selenium.host" value="localhost"/>
+        <property name="test.suite" value="BASE"/>
+        <property name="test.tests" value=""/>
+        <property name="test.user.admin.idm" value="dcsdevteam"/>
+        <property name="test.http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.testMethods" value=""/>
+        <property name="test.reviews.dontDeleteEnviroment" value="false"/>
+        <property name="test.selenium.browser.maximize" value="false"/>
+        <property name="test.firefox.profile.name" value=""/>
+        <property name="test.timeout.build.buildqueue" value="1200"/>
+        <property name="test.user.em-agent.idm" value="dcsdevteam"/>
+        <property name="test.selenium.remote" value="false"/>
+        <property name="test.user.sdi-agent.idm" value="dcsdevteam"/>
+        <property name="test.byom.authToken" value="123456"/>
+        <property name="test.proxy.autodetect" value="false"/>
+        <property name="test.testEmptyOrg.idm" value="dcsdevteam"/>
+        <property name="test.user.non-admin.idm" value="dcsdevteam"/>
+        <property name="test.data.tasks.useexisting" value="false"/>
+        <property name="test.selenium.browser.size.w" value="1280"/>
+        <property name="test.category" value="DEFAULT"/>
+        <property name="test.user.em-agent.name" value="alex.admin"/>
+        <property name="test.timeout.slowdown" value="0"/>
+      </properties>
+    <system-out>
+2016-04-12 23:33:37,143 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#208] POST http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2 HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-12 23:33:37,143 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#208] posted content:
+{
+  &quot;projectRelationship&quot; : &quot;ALL&quot;,
+  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,
+  &quot;shallowCopy&quot; : false
+}
+2016-04-12 23:33:37,144 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#208] cURL: curl -k -u tina.testsuite:Welcome1! -X POST &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2&apos; -H &apos;Content-Type: application/json; charset=UTF-8&apos; --data-binary &apos;{  &quot;projectRelationship&quot; : &quot;ALL&quot;,  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,  &quot;shallowCopy&quot; : false}&apos;
+2016-04-12 23:33:38,351 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#208] HTTP/1.1 200 OK
+2016-04-12 23:33:38,351 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#208] Content-Type: application/json;charset=UTF-8
+2016-04-12 23:33:38,351 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#208] Content-Length: -- no value --
+2016-04-12 23:33:38,597 DEBUG [oracle.clouddev.test.selenium.junit.BrowserSession] navigating to project qa-dev_test-shared-project1-1460525673052 (http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052)
+2016-04-12 23:33:40,035 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (oracle.clouddev.test.selenium.components.Conditions$5@5d011fb5) for element [By.xpath: .//button[@id=&apos;odcs-project-selector&apos;]/span[1]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:40,109 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element is visible)) for element [By.id: page-provision] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:41,159 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: odcs-nav-tabs] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:41,316 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:41,373 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element has style class &apos;oj-disabled&apos;)) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:41,437 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:41,874 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element has style class &apos;oj-active&apos;) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:33:41,932 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:33:42,118 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] TestWikiPage.editSampleWikiTextPage
+2016-04-12 23:33:42,145 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: //span[text()=&apos;Sample Wiki To Test&apos;]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:33:42,836 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: editWikiPage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki/p/Sample%20Wiki%20To%20Test.
+2016-04-12 23:33:46,461 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: editWikiPage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki/edit/Sample%20Wiki%20To%20Test.
+    </system-out>
+    </testcase>
+    <testcase classname="oracle.clouddev.test.selenium.tests.base.TestWikiPage" name="deletePage" time="186.556">
+      <properties>
+        <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+        <property name="exec.mainClass" value="oracle.clouddev.test.selenium.RunTests"/>
+        <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_74/jre/lib/amd64"/>
+        <property name="java.vm.version" value="25.74-b02"/>
+        <property name="java.vm.vendor" value="Oracle Corporation"/>
+        <property name="java.vendor.url" value="http://java.oracle.com/"/>
+        <property name="guice.disable.misplaced.annotation.check" value="true"/>
+        <property name="path.separator" value=":"/>
+        <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+        <property name="file.encoding.pkg" value="sun.io"/>
+        <property name="user.country" value="US"/>
+        <property name="sun.java.launcher" value="SUN_STANDARD"/>
+        <property name="sun.os.patch.level" value="unknown"/>
+        <property name="http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+        <property name="user.dir" value="/home/builder/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests"/>
+        <property name="java.runtime.version" value="1.8.0_74-b02"/>
+        <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+        <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_74/jre/lib/endorsed"/>
+        <property name="os.arch" value="amd64"/>
+        <property name="java.io.tmpdir" value="/tmp"/>
+        <property name="line.separator" value="
+"/>
+        <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+        <property name="https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="os.name" value="Linux"/>
+        <property name="classworlds.conf" value="/usr/local/apache-maven/apache-maven-3.0.4/bin/m2.conf"/>
+        <property name="sun.jnu.encoding" value="UTF-8"/>
+        <property name="http.proxyPort" value="80"/>
+        <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+        <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+        <property name="java.specification.name" value="Java Platform API Specification"/>
+        <property name="java.class.version" value="52.0"/>
+        <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+        <property name="os.version" value="3.8.13-55.1.1.el6uek.x86_64"/>
+        <property name="user.home" value="/home/builder"/>
+        <property name="user.timezone" value="PST8PDT"/>
+        <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+        <property name="file.encoding" value="UTF-8"/>
+        <property name="java.specification.version" value="1.8"/>
+        <property name="java.class.path" value="/usr/local/apache-maven/apache-maven-3.0.4/boot/plexus-classworlds-2.4.jar"/>
+        <property name="user.name" value="builder"/>
+        <property name="java.vm.specification.version" value="1.8"/>
+        <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f /home/c2c/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests/pom.xml --batch-mode exec:java -Dexec.mainClass=oracle.clouddev.test.selenium.RunTests -Dexec.args=selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=295 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="java.home" value="/usr/java/jdk1.8.0_74/jre"/>
+        <property name="sun.arch.data.model" value="64"/>
+        <property name="user.language" value="en"/>
+        <property name="java.specification.vendor" value="Oracle Corporation"/>
+        <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+        <property name="java.vm.info" value="mixed mode"/>
+        <property name="java.version" value="1.8.0_74"/>
+        <property name="securerandom.source" value="file:/dev/./urandom"/>
+        <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_74/jre/lib/ext:/usr/java/packages/lib/ext"/>
+        <property name="http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_74/jre/lib/resources.jar:/usr/java/jdk1.8.0_74/jre/lib/rt.jar:/usr/java/jdk1.8.0_74/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_74/jre/lib/jsse.jar:/usr/java/jdk1.8.0_74/jre/lib/jce.jar:/usr/java/jdk1.8.0_74/jre/lib/charsets.jar:/usr/java/jdk1.8.0_74/jre/lib/jfr.jar:/usr/java/jdk1.8.0_74/jre/classes"/>
+        <property name="java.vendor" value="Oracle Corporation"/>
+        <property name="maven.home" value="/usr/local/apache-maven/apache-maven-3.0.4"/>
+        <property name="file.separator" value="/"/>
+        <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+        <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+        <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+        <property name="sun.cpu.endian" value="little"/>
+        <property name="https.proxyPort" value="80"/>
+        <property name="exec.args" value="selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=295 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="sun.cpu.isalist" value=""/>
+        <property name="test.selenium.browser.size.h" value="960"/>
+        <property name="test.user.non-admin.name" value="tom.testsuite"/>
+        <property name="test.https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.user.admin.name" value="tina.testsuite"/>
+        <property name="test.user.em-agent.password" value="Welcome1!"/>
+        <property name="test.tag" value="base"/>
+        <property name="test.user.em-agent.fullname" value="Alex Admin"/>
+        <property name="test.selenium.port" value="44000"/>
+        <property name="test.build.number" value="295"/>
+        <property name="test.user.sdi-agent.enabled" value="true"/>
+        <property name="test.timeout.assert.condition" value="30"/>
+        <property name="test.target.version" value="{
+  &quot;buildInformation&quot; : {
+    &quot;gitCommitId&quot; : &quot;6415b9c07a83d336f513936eb79c4a925510b07b&quot;,
+    &quot;gitCommitMessage&quot; : &quot;Merge branch &apos;Fix18963&apos; into &apos;patchset_16_2_3&apos;&quot;,
+    &quot;buildTime&quot; : &quot;12.04.2016 @ 21:58:42 PDT&quot;,
+    &quot;buildUser&quot; : &quot;Code2Cloud Builder&quot;
+  }
+}"/>
+        <property name="test.build.job" value="dcs_dcs.Release-Selenium-Tests"/>
+        <property name="test.timeout.project.create" value="660"/>
+        <property name="test.user.sdi-agent.name" value="alex.admin"/>
+        <property name="test.selenium.browser" value="firefox"/>
+        <property name="test.http.proxyPort" value="80"/>
+        <property name="test.user.sdi-agent.password" value="Welcome1!"/>
+        <property name="test.user.sdi-agent.fullname" value="Alex Admin"/>
+        <property name="test.timeout.selenium.navigate" value="20"/>
+        <property name="test.target.release" value="16.2.3.0.0"/>
+        <property name="test.byom.ip" value="127.0.0.1"/>
+        <property name="test.byom.port" value="8585"/>
+        <property name="test.notification.type" value="swing"/>
+        <property name="test.data.project.override" value=""/>
+        <property name="test.timeout.selenium.find" value="1"/>
+        <property name="test.user.em-agent.enabled" value="true"/>
+        <property name="test.testEmptyOrg.db.id" value=""/>
+        <property name="test.reviews.timeout.slowdown" value="0"/>
+        <property name="test.http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="test.capture.video" value="true"/>
+        <property name="test.user.non-admin.password" value="Welcome1!"/>
+        <property name="test.user.non-admin.fullname" value="Tom Testsuite"/>
+        <property name="test.user.admin.password" value="Welcome1!"/>
+        <property name="test.notification.history" value="3"/>
+        <property name="test.user.admin.fullname" value="Tina Testsuite"/>
+        <property name="test.capture.screenshots" value="true"/>
+        <property name="test.testEmptyOrg.db.connectString" value="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=slc09iwb.us.oracle.com)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=dbpod)))"/>
+        <property name="test.firefox.bin" value=""/>
+        <property name="test.https.proxyPort" value="80"/>
+        <property name="test.develop.offline" value="false"/>
+        <property name="test.timeout.build.buildqueue.polling" value="60"/>
+        <property name="test.output.dir" value="target/test-reports/"/>
+        <property name="test.firefox.allowedHosts" value="localhost,localhost.localdomain"/>
+        <property name="test.testEmptyOrg.db.schema" value="BV2RLPNYEWMR"/>
+        <property name="test.web.url" value="http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/"/>
+        <property name="test.firefox.extensions" value=""/>
+        <property name="test.testEmptyOrg.orgExistsCheck" value="false"/>
+        <property name="test.data.dir" value="data/"/>
+        <property name="test.notification.font.size" value="15"/>
+        <property name="test.testEmptyOrg.service" value="devservice5"/>
+        <property name="test.selenium.start.server" value="false"/>
+        <property name="test.firefox.profile.path" value=""/>
+        <property name="test.selenium.host" value="localhost"/>
+        <property name="test.suite" value="BASE"/>
+        <property name="test.tests" value=""/>
+        <property name="test.user.admin.idm" value="dcsdevteam"/>
+        <property name="test.http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.testMethods" value=""/>
+        <property name="test.reviews.dontDeleteEnviroment" value="false"/>
+        <property name="test.selenium.browser.maximize" value="false"/>
+        <property name="test.firefox.profile.name" value=""/>
+        <property name="test.timeout.build.buildqueue" value="1200"/>
+        <property name="test.user.em-agent.idm" value="dcsdevteam"/>
+        <property name="test.selenium.remote" value="false"/>
+        <property name="test.user.sdi-agent.idm" value="dcsdevteam"/>
+        <property name="test.byom.authToken" value="123456"/>
+        <property name="test.proxy.autodetect" value="false"/>
+        <property name="test.testEmptyOrg.idm" value="dcsdevteam"/>
+        <property name="test.user.non-admin.idm" value="dcsdevteam"/>
+        <property name="test.data.tasks.useexisting" value="false"/>
+        <property name="test.selenium.browser.size.w" value="1280"/>
+        <property name="test.category" value="DEFAULT"/>
+        <property name="test.user.em-agent.name" value="alex.admin"/>
+        <property name="test.timeout.slowdown" value="0"/>
+      </properties>
+    <system-out>
+2016-04-12 23:33:46,918 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#209] POST http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2 HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-12 23:33:46,918 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#209] posted content:
+{
+  &quot;projectRelationship&quot; : &quot;ALL&quot;,
+  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,
+  &quot;shallowCopy&quot; : false
+}
+2016-04-12 23:33:46,918 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#209] cURL: curl -k -u tina.testsuite:Welcome1! -X POST &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/projects/search2&apos; -H &apos;Content-Type: application/json; charset=UTF-8&apos; --data-binary &apos;{  &quot;projectRelationship&quot; : &quot;ALL&quot;,  &quot;organizationIdentifier&quot; : &quot;qa-dev&quot;,  &quot;shallowCopy&quot; : false}&apos;
+2016-04-12 23:33:48,236 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#209] HTTP/1.1 200 OK
+2016-04-12 23:33:48,236 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#209] Content-Type: application/json;charset=UTF-8
+2016-04-12 23:33:48,236 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#209] Content-Length: -- no value --
+2016-04-12 23:33:48,420 DEBUG [oracle.clouddev.test.selenium.junit.BrowserSession] navigating to project qa-dev_test-shared-project1-1460525673052 (http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052)
+2016-04-12 23:33:50,222 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (oracle.clouddev.test.selenium.components.Conditions$5@66b110c6) for element [By.xpath: .//button[@id=&apos;odcs-project-selector&apos;]/span[1]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:50,281 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element is visible)) for element [By.id: page-provision] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:51,312 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: odcs-nav-tabs] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:51,352 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:51,411 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element has style class &apos;oj-disabled&apos;)) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:51,491 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460525673052.
+2016-04-12 23:33:52,054 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element has style class &apos;oj-active&apos;) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:33:52,102 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;wiki&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:33:52,253 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] TestWikiPage.deletePage
+2016-04-12 23:33:52,253 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] TestWikiPage.deletePage entering createPageInternal
+2016-04-12 23:33:52,269 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: wiki-newpage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+2016-04-12 23:34:13,554 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Click on Save button.
+2016-04-12 23:34:13,569 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: wikiedit-save] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki/edit.
+2016-04-12 23:34:13,802 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Wait for the page to be saved and displayed...
+2016-04-12 23:34:15,814 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: editWikiPage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki/p/For%20Deletion%20Wiki%20Page.
+2016-04-12 23:34:15,833 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Page has been created!
+2016-04-12 23:34:15,833 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Wait for the page to be saved and displayed...
+2016-04-12 23:34:18,042 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] delete: For Deletion Wiki Page
+2016-04-12 23:34:48,042 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Clicking the check box
+2016-04-12 23:34:48,238 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Wait 5 second
+2016-04-12 23:34:53,239 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Clicking the delete button
+2016-04-12 23:34:53,417 INFO  [oracle.clouddev.test.selenium.tests.base.TestWikiPage] Wait 3 seconds for browser to be ready.
+2016-04-12 23:36:53,441 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: wiki-newpage] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460525673052/wiki.
+    </system-out>
+    </testcase>
+    <testcase classname="oracle.clouddev.test.selenium.tests.base.TestWikiPage" name="_class_destroy_" time="0.000">
+      <properties>
+        <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+        <property name="exec.mainClass" value="oracle.clouddev.test.selenium.RunTests"/>
+        <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_74/jre/lib/amd64"/>
+        <property name="java.vm.version" value="25.74-b02"/>
+        <property name="java.vm.vendor" value="Oracle Corporation"/>
+        <property name="java.vendor.url" value="http://java.oracle.com/"/>
+        <property name="guice.disable.misplaced.annotation.check" value="true"/>
+        <property name="path.separator" value=":"/>
+        <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+        <property name="file.encoding.pkg" value="sun.io"/>
+        <property name="user.country" value="US"/>
+        <property name="sun.java.launcher" value="SUN_STANDARD"/>
+        <property name="sun.os.patch.level" value="unknown"/>
+        <property name="http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+        <property name="user.dir" value="/home/builder/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests"/>
+        <property name="java.runtime.version" value="1.8.0_74-b02"/>
+        <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+        <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_74/jre/lib/endorsed"/>
+        <property name="os.arch" value="amd64"/>
+        <property name="java.io.tmpdir" value="/tmp"/>
+        <property name="line.separator" value="
+"/>
+        <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+        <property name="https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="os.name" value="Linux"/>
+        <property name="classworlds.conf" value="/usr/local/apache-maven/apache-maven-3.0.4/bin/m2.conf"/>
+        <property name="sun.jnu.encoding" value="UTF-8"/>
+        <property name="http.proxyPort" value="80"/>
+        <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+        <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+        <property name="java.specification.name" value="Java Platform API Specification"/>
+        <property name="java.class.version" value="52.0"/>
+        <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+        <property name="os.version" value="3.8.13-55.1.1.el6uek.x86_64"/>
+        <property name="user.home" value="/home/builder"/>
+        <property name="user.timezone" value="PST8PDT"/>
+        <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+        <property name="file.encoding" value="UTF-8"/>
+        <property name="java.specification.version" value="1.8"/>
+        <property name="java.class.path" value="/usr/local/apache-maven/apache-maven-3.0.4/boot/plexus-classworlds-2.4.jar"/>
+        <property name="user.name" value="builder"/>
+        <property name="java.vm.specification.version" value="1.8"/>
+        <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f /home/c2c/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests/pom.xml --batch-mode exec:java -Dexec.mainClass=oracle.clouddev.test.selenium.RunTests -Dexec.args=selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=295 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="java.home" value="/usr/java/jdk1.8.0_74/jre"/>
+        <property name="sun.arch.data.model" value="64"/>
+        <property name="user.language" value="en"/>
+        <property name="java.specification.vendor" value="Oracle Corporation"/>
+        <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+        <property name="java.vm.info" value="mixed mode"/>
+        <property name="java.version" value="1.8.0_74"/>
+        <property name="securerandom.source" value="file:/dev/./urandom"/>
+        <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_74/jre/lib/ext:/usr/java/packages/lib/ext"/>
+        <property name="http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_74/jre/lib/resources.jar:/usr/java/jdk1.8.0_74/jre/lib/rt.jar:/usr/java/jdk1.8.0_74/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_74/jre/lib/jsse.jar:/usr/java/jdk1.8.0_74/jre/lib/jce.jar:/usr/java/jdk1.8.0_74/jre/lib/charsets.jar:/usr/java/jdk1.8.0_74/jre/lib/jfr.jar:/usr/java/jdk1.8.0_74/jre/classes"/>
+        <property name="java.vendor" value="Oracle Corporation"/>
+        <property name="maven.home" value="/usr/local/apache-maven/apache-maven-3.0.4"/>
+        <property name="file.separator" value="/"/>
+        <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+        <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+        <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+        <property name="sun.cpu.endian" value="little"/>
+        <property name="https.proxyPort" value="80"/>
+        <property name="exec.args" value="selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=295 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="sun.cpu.isalist" value=""/>
+        <property name="test.selenium.browser.size.h" value="960"/>
+        <property name="test.user.non-admin.name" value="tom.testsuite"/>
+        <property name="test.https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.user.admin.name" value="tina.testsuite"/>
+        <property name="test.user.em-agent.password" value="Welcome1!"/>
+        <property name="test.tag" value="base"/>
+        <property name="test.user.em-agent.fullname" value="Alex Admin"/>
+        <property name="test.selenium.port" value="44000"/>
+        <property name="test.build.number" value="295"/>
+        <property name="test.user.sdi-agent.enabled" value="true"/>
+        <property name="test.timeout.assert.condition" value="30"/>
+        <property name="test.target.version" value="{
+  &quot;buildInformation&quot; : {
+    &quot;gitCommitId&quot; : &quot;6415b9c07a83d336f513936eb79c4a925510b07b&quot;,
+    &quot;gitCommitMessage&quot; : &quot;Merge branch &apos;Fix18963&apos; into &apos;patchset_16_2_3&apos;&quot;,
+    &quot;buildTime&quot; : &quot;12.04.2016 @ 21:58:42 PDT&quot;,
+    &quot;buildUser&quot; : &quot;Code2Cloud Builder&quot;
+  }
+}"/>
+        <property name="test.build.job" value="dcs_dcs.Release-Selenium-Tests"/>
+        <property name="test.timeout.project.create" value="660"/>
+        <property name="test.user.sdi-agent.name" value="alex.admin"/>
+        <property name="test.selenium.browser" value="firefox"/>
+        <property name="test.http.proxyPort" value="80"/>
+        <property name="test.user.sdi-agent.password" value="Welcome1!"/>
+        <property name="test.user.sdi-agent.fullname" value="Alex Admin"/>
+        <property name="test.timeout.selenium.navigate" value="20"/>
+        <property name="test.target.release" value="16.2.3.0.0"/>
+        <property name="test.byom.ip" value="127.0.0.1"/>
+        <property name="test.byom.port" value="8585"/>
+        <property name="test.notification.type" value="swing"/>
+        <property name="test.data.project.override" value=""/>
+        <property name="test.timeout.selenium.find" value="1"/>
+        <property name="test.user.em-agent.enabled" value="true"/>
+        <property name="test.testEmptyOrg.db.id" value=""/>
+        <property name="test.reviews.timeout.slowdown" value="0"/>
+        <property name="test.http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="test.capture.video" value="true"/>
+        <property name="test.user.non-admin.password" value="Welcome1!"/>
+        <property name="test.user.non-admin.fullname" value="Tom Testsuite"/>
+        <property name="test.user.admin.password" value="Welcome1!"/>
+        <property name="test.notification.history" value="3"/>
+        <property name="test.user.admin.fullname" value="Tina Testsuite"/>
+        <property name="test.capture.screenshots" value="true"/>
+        <property name="test.testEmptyOrg.db.connectString" value="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=slc09iwb.us.oracle.com)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=dbpod)))"/>
+        <property name="test.firefox.bin" value=""/>
+        <property name="test.https.proxyPort" value="80"/>
+        <property name="test.develop.offline" value="false"/>
+        <property name="test.timeout.build.buildqueue.polling" value="60"/>
+        <property name="test.output.dir" value="target/test-reports/"/>
+        <property name="test.firefox.allowedHosts" value="localhost,localhost.localdomain"/>
+        <property name="test.testEmptyOrg.db.schema" value="BV2RLPNYEWMR"/>
+        <property name="test.web.url" value="http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/"/>
+        <property name="test.firefox.extensions" value=""/>
+        <property name="test.testEmptyOrg.orgExistsCheck" value="false"/>
+        <property name="test.data.dir" value="data/"/>
+        <property name="test.notification.font.size" value="15"/>
+        <property name="test.testEmptyOrg.service" value="devservice5"/>
+        <property name="test.selenium.start.server" value="false"/>
+        <property name="test.firefox.profile.path" value=""/>
+        <property name="test.selenium.host" value="localhost"/>
+        <property name="test.suite" value="BASE"/>
+        <property name="test.tests" value=""/>
+        <property name="test.user.admin.idm" value="dcsdevteam"/>
+        <property name="test.http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.testMethods" value=""/>
+        <property name="test.reviews.dontDeleteEnviroment" value="false"/>
+        <property name="test.selenium.browser.maximize" value="false"/>
+        <property name="test.firefox.profile.name" value=""/>
+        <property name="test.timeout.build.buildqueue" value="1200"/>
+        <property name="test.user.em-agent.idm" value="dcsdevteam"/>
+        <property name="test.selenium.remote" value="false"/>
+        <property name="test.user.sdi-agent.idm" value="dcsdevteam"/>
+        <property name="test.byom.authToken" value="123456"/>
+        <property name="test.proxy.autodetect" value="false"/>
+        <property name="test.testEmptyOrg.idm" value="dcsdevteam"/>
+        <property name="test.user.non-admin.idm" value="dcsdevteam"/>
+        <property name="test.data.tasks.useexisting" value="false"/>
+        <property name="test.selenium.browser.size.w" value="1280"/>
+        <property name="test.category" value="DEFAULT"/>
+        <property name="test.user.em-agent.name" value="alex.admin"/>
+        <property name="test.timeout.slowdown" value="0"/>
+      </properties>
+    </testcase>
+  </testsuite>
